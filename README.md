@@ -17,7 +17,7 @@ Before setting up the project, ensure you have the following installed:
 
 ## Installation
 
-### Step 1: Set Up a Conda Environment (Recommended)
+### Step 1: Set Up a Conda Environment
 
 To avoid dependency conflicts, create a new conda environment:
 
@@ -122,7 +122,7 @@ This project utilizes NeMo models trained for streaming applications, as describ
 
 ## Configuration
 
-- **WebSocket Server URL:** You can change the WebSocket server address in `client.py` by modifying the `WS_URL` variable.
+- **WebSocket Server URL:** You can change the WebSocket server address in `server.py` by modifying the `WS_URL` variable.
 - **Audio Parameters:** Adjust `SAMPLE_RATE`, `chunk_size`, and `ENCODER_STEP_LENGTH` in `client.py` to fine-tune the audio streaming behavior.
 
 ## Troubleshooting
